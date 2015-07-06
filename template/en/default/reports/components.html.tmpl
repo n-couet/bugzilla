@@ -54,6 +54,7 @@
 [% BLOCK describe_comp %]
   <tr id="[% comp.name FILTER html %]">
     <td rowspan="2" class="component_name">
+      <img class="avatar" src="[%- product.icon %]" alt="project icon">
       <a href="buglist.cgi?product=
                [%- product.name FILTER uri %]&amp;component=
                [%- comp.name FILTER uri %]&amp;resolution=---">

@@ -585,4 +585,16 @@ table.owner, table.number, table.zeroitems {
     padding-right: 3em;
 }
 
+.avatar {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-right: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
 /* summarize_time.cgi (end) */

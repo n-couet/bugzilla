@@ -1,4 +1,7 @@
+.idea
 .htaccess
+.vagrant
+vagrant/.home
 /lib/*
 /template/en/custom
 /docs/en/rst/extensions/*
